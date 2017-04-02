@@ -6,4 +6,6 @@ public interface UserService {
 	
 	User findById(Integer userId);
 	
+	User findByName(String name);
+	
 }

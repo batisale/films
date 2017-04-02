@@ -19,4 +19,11 @@ public class FilmServiceImpl implements FilmService {
 		
 	}
 
+	@Override
+	public Film findByTitle(String title) {
+		
+		return filmDao.findByTitle(title);
+		
+	}
+
 }

@@ -6,4 +6,6 @@ public interface FilmService {
 	
 	Film findById(Integer idFilm);
 	
+	Film findByTitle(String title);
+	
 }
